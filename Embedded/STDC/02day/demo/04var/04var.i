@@ -742,10 +742,10 @@ extern int __overflow (FILE *, int);
 # 5 "04var.c"
 int main () {
     int val = 0, val1 = 0;
-    val = 10;
+    val = 10 ;
     val = 5+7;
     val + 3;
     printf("val是%d\n", val);
-    val = val;
+    val = val ;
     return 0;
 }

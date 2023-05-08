@@ -1,7 +1,7 @@
 /*
  * 变量演示
  * */
-include<stdio.h>
+#include<stdio.h>
 int main () {
     int val = 0, val1 = 0;        //声明一个整型变量val，并初始化该变量。
     val /*左值*/=/*赋值操作符*/ 10/*右值*/;       //给val变量赋值，使得val变量的值等于10。

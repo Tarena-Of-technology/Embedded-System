@@ -1,9 +1,9 @@
-# 0 "03printf.c"
+# 0 "06var.c"
 # 0 "<built-in>"
 # 0 "<command-line>"
 # 1 "/usr/include/stdc-predef.h" 1 3 4
 # 0 "<command-line>" 2
-# 1 "03printf.c"
+# 1 "06var.c"
 
 
 
@@ -737,10 +737,19 @@ extern int __uflow (FILE *);
 extern int __overflow (FILE *, int);
 # 909 "/usr/include/stdio.h" 3 4
 
-# 5 "03printf.c" 2
+# 5 "06var.c" 2
 
-# 5 "03printf.c"
-int main ( ) {
-    printf("%d/*华为手机的价格*/-%d/*小米手机的价格*/ = %d/*手机的价格差*/\n",17000 ,1000 , 17000-1000 );
+# 5 "06var.c"
+int main () {
+    int val = 1;
+    printf("%d", val);
+    val = val + 1;
+    printf("%d", val);
+    val = val + 1;
+    printf("%d", val);
+    val = val + 1;
+    printf("%d", val);
+    val = val + 1;
+    printf("%d\n", val);
     return 0;
 }

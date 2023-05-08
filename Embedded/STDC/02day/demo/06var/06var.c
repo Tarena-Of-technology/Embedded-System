@@ -1,7 +1,7 @@
 /*
  * 变量演示
  * */
-include<stdio.h>
+#include<stdio.h>
 int main () {
     int val = 1;  //声明一个整形的变量，并对变量进行初始化。
     printf("%d", val);  //显示数字1

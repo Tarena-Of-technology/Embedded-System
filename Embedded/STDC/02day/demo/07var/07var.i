@@ -1,12 +1,9 @@
-# 0 "03printf.c"
+# 0 "07var.c"
 # 0 "<built-in>"
 # 0 "<command-line>"
 # 1 "/usr/include/stdc-predef.h" 1 3 4
 # 0 "<command-line>" 2
-# 1 "03printf.c"
-
-
-
+# 1 "07var.c"
 # 1 "/usr/include/stdio.h" 1 3 4
 # 27 "/usr/include/stdio.h" 3 4
 # 1 "/usr/include/x86_64-linux-gnu/bits/libc-header-start.h" 1 3 4
@@ -737,10 +734,32 @@ extern int __uflow (FILE *);
 extern int __overflow (FILE *, int);
 # 909 "/usr/include/stdio.h" 3 4
 
-# 5 "03printf.c" 2
+# 2 "07var.c" 2
 
-# 5 "03printf.c"
-int main ( ) {
-    printf("%d/*华为手机的价格*/-%d/*小米手机的价格*/ = %d/*手机的价格差*/\n",17000 ,1000 , 17000-1000 );
-    return 0;
+# 2 "07var.c"
+int main () {
+int val=1,val1=9;
+printf("%d*%d=%d\n", val,val1,val*val1);
+
+val=val+1;
+val1=val1-1;
+printf("%d*%d=%d\n", val,val1,val*val1);
+
+val=val+1;
+val1=val1-1;
+printf("%d*%d=%d\n", val,val1,val*val1);
+
+val=val+1;
+val1=val1-1;
+printf("%d*%d=%d\n", val,val1,val*val1);
+
+val=val+1;
+val1=val1-1;
+printf("%d*%d=%d\n", val,val1,val*val1);
+
+val=val+1;
+val1=val1-1;
+printf("%d*%d=%d\n", val,val1,val*val1);
+
+return 0;
 }

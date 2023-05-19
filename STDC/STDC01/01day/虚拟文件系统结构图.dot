@@ -1,0 +1,9 @@
+graph {
+  root -- abc
+  root -- def
+   abc -- iop
+   abc -- asd
+   abc -- vbn
+   def -- pqr
+   def -- xyz
+}

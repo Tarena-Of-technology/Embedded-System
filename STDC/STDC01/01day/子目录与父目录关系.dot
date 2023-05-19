@@ -1,0 +1,22 @@
+digraph {
+   rankdir = BT
+   def -> root
+   abc -> root
+   iop -> abc
+   asd -> abc
+   vbn -> abc
+   pqr -> def
+   xyz -> def
+}
+
+
+
+
+
+
+
+
+
+
+
+  

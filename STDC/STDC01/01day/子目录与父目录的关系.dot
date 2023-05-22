@@ -1,0 +1,16 @@
+digraph G {
+  { 
+   node [margin=0 fontcolor=black fontsize=32 width=0.8 shape=circle style=filled]
+    root [fillcolor=white fixedsize=true]
+    abc [fillcolor=white fixedsize=shape]
+    def [fillcolor=white fixedsize=shape]
+    iop [fillcolor=white fixedsize=shape]
+    asd [fillcolor=white fixedsize=shape]
+    vbn [fillcolor=white fixedsize=shape]
+    pqr [fillcolor=white fixedsize=shape]
+    xyz [fillcolor=white fixedsize=shape]
+  }
+   rankdir = BT
+   {iop asd vbn} -> abc -> root
+   {pqr xyz} -> def -> root
+}

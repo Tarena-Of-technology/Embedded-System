@@ -1,0 +1,16 @@
+graph {
+  { 
+   center = true      
+   node [margin=0 fontcolor=black fontsize=32 width=0.8 shape=circle style=filled]
+    root [fillcolor=white fixedsize=true]
+    abc [fillcolor=white fixedsize=shape]
+    def [fillcolor=white fixedsize=true]
+    iop [fillcolor=white fixedsize=true]
+    asd [fillcolor=white fixedsize=true]
+    vbn [fillcolor=white fixedsize=true]
+    pqr [fillcolor=white fixedsize=shape]
+    xyz [fillcolor=white fixedsize=shape]
+  }
+    root -- abc -- {iop asd vbn}
+    root -- def -- {pqr xyz}
+}

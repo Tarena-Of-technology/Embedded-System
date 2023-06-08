@@ -1,0 +1,15 @@
+day01$ls
+文件系统.png
+day01$touch abc.txt
+day01$ls
+abc.txt 文件系统.png
+day01$ls -l
+总用量 16
+-rw-rw-r-- 1 tarena tarena      0   Apr   1   15:42   abc.txt
+-rw-rw-r-- 1 tarena tarena  13884   Apr   1   15:14   文件系统.png
+day01$touch abc.txt
+day01$ls -l
+总用量 16
+-rw-rw-r-- 1 tarena tarena      0   Apr   1   15:44   abc.txt
+-rw-rw-r-- 1 tarena tarena  13884   Apr   1   15:14   文件系统.png
+day01$
